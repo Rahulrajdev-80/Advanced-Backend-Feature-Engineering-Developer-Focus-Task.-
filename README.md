@@ -1,30 +1,40 @@
-# Advanced-Backend-Feature-Engineering-Developer-Focus-Task.-
-🏥 Advanced Backend & Feature Engineering - Hospital Management API
-📌 Project Objective
-This project is developed using FastAPI to build an advanced backend application with clean architecture, real-world business logic, JWT authentication, role-based authorization, appointment management, file handling, background tasks, and unit testing.
+# 🏥 Advanced Backend & Feature Engineering - Hospital Management API
 
-The backend simulates a Hospital Management System where:
+## 📌 Project Objective
 
-Users can register/login with roles
-Doctors can be managed
-Patients can be managed
-Appointments can be booked and tracked
-Password reset functionality is available
-Patient files can be uploaded securely
-APIs are protected using JWT token authentication
-🚀 Tech Stack Used
-Python 3.11
-FastAPI
-Uvicorn
-SQLAlchemy ORM
-SQLite Database
-Pydantic
-JWT Authentication
-Passlib + bcrypt
-OAuth2PasswordBearer
-Pytest
-Multipart File Upload
-📁 Professional Backend Folder Structure
+This project is developed using **FastAPI** to build an advanced backend application with clean architecture, real-world business logic, JWT authentication, role-based authorization, appointment management, file handling, background tasks, and unit testing.
+
+The backend simulates a **Hospital Management System** where:
+
+- Users can register/login with roles
+- Doctors can be managed
+- Patients can be managed
+- Appointments can be booked and tracked
+- Password reset functionality is available
+- Patient files can be uploaded securely
+- APIs are protected using JWT token authentication
+
+---
+
+# 🚀 Tech Stack Used
+
+- Python 3.11
+- FastAPI
+- Uvicorn
+- SQLAlchemy ORM
+- SQLite Database
+- Pydantic
+- JWT Authentication
+- Passlib + bcrypt
+- OAuth2PasswordBearer
+- Pytest
+- Multipart File Upload
+
+---
+
+# 📁 Professional Backend Folder Structure
+
+```text
 backend/
 │── app/
 │   │── main.py
